@@ -7,17 +7,49 @@ text-decoration: none;
 }
 body{
   font-family: 'Barlow', sans-serif;
- /*font-family: 'Fraunces', serif;*/
+
  background: #FEFCF7; 
 }
 .container{
   margin-left: auto;
   margin-right: auto;
 }
-.header{
 
-}
 .header-box{
   width: 1440px;
+}
+h2::before{
+content: "";
+  background-image: url("../img/coffe.png");
 
+  width: 25px;
+  height: 25px;
+display: inline-block;
+}
+h2{
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+font-size: 32px;
+line-height: 32px;
+color: #333D4B;
+}
+.header-link{
+  font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+color: #83888F;
+}
+.header-box{
+  display: flex;
+
+}
+.header-title-box{
+  display: flex;
+ margin-left: 729px;
+}
+.title{
+  margin-left: 83px;
+}
+.coffe-item{
+  padding-left: 32px;
 }
