@@ -1,97 +1,123 @@
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-list-style: none;
-text-decoration: none;
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
-body{
+
+body {
   font-family: 'Barlow', sans-serif;
 
- background: #FEFCF7; 
+  background: #FEFCF7;
 }
-.container{
+
+.container {
   margin-left: auto;
   margin-right: auto;
 }
 
-.header-box{
+.header-box {
   width: 1440px;
 }
-h2::before{
-content: "";
+
+h2::before {
+  content: "";
   background-image: url("../img/coffe.png");
 
   width: 25px;
   height: 25px;
-display: inline-block;
+  display: inline-block;
 }
-h2{
+
+h2 {
   font-family: 'Fraunces', serif;
   font-weight: 900;
-font-size: 32px;
-line-height: 32px;
-color: #333D4B;
+  font-size: 32px;
+  line-height: 32px;
+  color: #333D4B;
 }
-.header-link{
+
+.header-link {
   font-weight: 700;
-font-size: 12px;
-line-height: 15px;
-color: #83888F;
+  font-size: 12px;
+  line-height: 15px;
+  color: #83888F;
 }
-.header-box{
+
+.header-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 
 }
-.header-title-box{
+
+.header-title-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
- margin-left: 739px;
+  margin-left: 739px;
 }
-.title{
+
+.title {
   margin-left: 83px;
 }
-.coffe-item{
+
+.coffe-item {
   padding-left: 32px;
 }
-.herro-box{
+
+.herro-box {
   width: 1440px;
 }
-.herro-content{
+
+.herro-content {
   background-image: url("../img/Bitmap.jpg");
   width: 1280px;
   height: 600px;
-margin: 79px;
-padding-left: 85px;
-padding-top: 85px;
+  margin: 79px;
+  padding-left: 85px;
+  padding-top: 85px;
 }
-.herro-title{
-  font-family: 'Fraunces', serif;
-font-weight: 900;
-font-size: 72px;
-line-height: 72px;
-color: #FEFCF7;
-width: 493px;
-}
-.herro-discribtion{
-  font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #FEFCF7;
-opacity: 0.8;
-width: 445px;
-margin-bottom: 56px;
-}
-.buttm{
-  
-background: #66D2CF;
-border-radius: 6px;
-padding: 16px 31px;
-display: inline-block;
-}
-.herro-link{
-  font-weight: 900;
-font-size: 18px;
-line-height: 25px;
-color: #FEFCF7;
 
+.herro-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  width: 493px;
+}
+
+.herro-discribtion {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+  width: 445px;
+  margin-bottom: 56px;
+}
+
+.buttm {
+
+  background: #66D2CF;
+  border-radius: 6px;
+  padding: 16px 31px;
+  display: inline-block;
+}
+
+.herro-link {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FEFCF7;
 }
