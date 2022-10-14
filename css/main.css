@@ -45,11 +45,20 @@ color: #83888F;
 }
 .header-title-box{
   display: flex;
- margin-left: 729px;
+ margin-left: 739px;
 }
 .title{
   margin-left: 83px;
 }
 .coffe-item{
   padding-left: 32px;
+}
+.herro-box{
+  width: 1440px;
+}
+.herro-img{
+  background-image: url("../img/Bitmap.jpg");
+  width: 1280px;
+  height: 600px;
+margin: 79px;
 }
