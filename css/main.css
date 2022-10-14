@@ -1,0 +1,23 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+body{
+  font-family: 'Barlow', sans-serif;
+ /*font-family: 'Fraunces', serif;*/
+ background: #FEFCF7; 
+}
+.container{
+  margin-left: auto;
+  margin-right: auto;
+}
+.header{
+
+}
+.header-box{
+  width: 1440px;
+
+}
